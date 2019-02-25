@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QPaperActivity">
+
+    <GridView
+        android:id="@+id/view_qList"
+        android:columnWidth="60dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="15dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </GridView>
+
+</RelativeLayout>
+
+
+
+
+
+
+    <!--<fragment-->
+    <!--android:id="@+id/grid_fragment"-->
+    <!--android:name="com.berojgar.firebase_mcq.Fragment_grid"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+    <!--<fragment-->
+    <!--android:id="@+id/question_fragment"-->
+    <!--android:name="com.berojgar.firebase_mcq.Fragment_questions"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+
